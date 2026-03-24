@@ -99,7 +99,7 @@ You can then host it using **GitHub Pages** or any hosting platform.
 
 ## 📬 Contact
 
-- 📧 Email: [your-email@example.com](mailto:your-email@example.com)
+- 📧 Email: [hendrix10jul@gmail.com](mailto:your-email@example.com)
 - 💼 LinkedIn: https://linkedin.com/in/yourprofile
 - 🐙 GitHub: https://github.com/yourusername
 
