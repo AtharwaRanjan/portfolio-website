@@ -19,7 +19,7 @@ function Contact() {
         <p style={{ margin: "8px 0" }}>
           <strong>LinkedIn:</strong>{" "}
           <a
-            href="https://linkedin.com/in/atharwa-ranjan"
+            href="https://www.linkedin.com/in/atharwaranjan/"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -28,13 +28,13 @@ function Contact() {
               fontWeight: "bold",
             }}
           >
-            atharwa-ranjan
+            Atharwa-Ranjan-LinkedIn
           </a>
         </p>
         <p style={{ margin: "8px 0" }}>
           <strong>GitHub:</strong>{" "}
           <a
-            href="https://github.com/hendrix10jul"
+            href="https://github.com/AtharwaRanjan"
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -43,7 +43,7 @@ function Contact() {
               fontWeight: "bold",
             }}
           >
-            hendrix10jul
+            Atharwa-Ranjan-GitHub
           </a>
         </p>
         <a
