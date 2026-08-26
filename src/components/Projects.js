@@ -2,25 +2,26 @@ function Projects() {
   // Replace these with your real projects!
   const projects = [
     {
-      title: "Excel Analysis Platform",
+      title: "Ecommerce Website- Trendkart",
       description:
-        "Uploads .xlsx files, parses data, and creates charts using React.",
-      tech: ["React", "Chart.js", "XLSX.js"],
-      link: "#", // Replace with your GitHub or demo link
+        "A full-stack e-commerce web application built with React, featuring product browsing, cart management, user authentication, and a responsive UI.",
+      tech: ["React", "Express.js", "Node.js", "MongoDB"],
+      link: "https://github.com/AtharwaRanjan/TrendKart",
+    },
+
+    {
+      title: "Resume Screening System",
+      description:
+        "An AI-powered resume screening system that analyzes resumes against job descriptions to identify relevant skills and rank candidates efficiently.",
+      tech: ["Python", "Machine Learning", "NPL"],
+      link: "https://github.com/AtharwaRanjan/resume-screening-system",
     },
     {
-      title: "Pokedex App",
+      title: "Portfolio Website",
       description:
-        "Fetches Pokémon data and displays images, names, and stats with interactive UI.",
-      tech: ["React", "CSS", "API"],
-      link: "#",
-    },
-    {
-      title: "Book Management System",
-      description:
-        "Java, JSP, Hibernate, and MySQL app to manage books and student marks.",
-      tech: ["Java", "Hibernate", "MySQL"],
-      link: "#",
+        "A personal portfolio website showcasing my projects, skills, and experience, built with React and styled with Tailwind CSS.",
+      tech: ["React", "Tailwind CSS"],
+      link: "https://github.com/AtharwaRanjan/portfolio-website",
     },
   ];
 

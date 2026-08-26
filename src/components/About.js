@@ -10,7 +10,7 @@ function About() {
       }}
     >
       <img
-        src="/profile.jpg"
+        src="/profile.jpeg"
         alt="Profile"
         style={{
           width: 120,
@@ -20,10 +20,15 @@ function About() {
           boxShadow: "0 4px 16px rgba(50,50,50,0.12)",
         }}
       />
-      <h1 className="typing">Hi, I'm Atharwa Ranjan</h1>
+      <h1 className="typing">
+        Hi, I'm <b style={{ color: "cyan" }}>Atharwa Ranjan</b>
+      </h1>
       <p>
-        B.Tech CSE, Frontend Developer, <b style={{ color: "red" }}>Java</b>{" "}
-        Enthusiast
+        Computer Science Engineering student skilled in
+        <b style={{ color: "red" }}> Java</b>, <b>JavaScript</b>, <b>React</b>,
+        and Data Structures & Algorithms. I enjoy building scalable web
+        applications and solving real-world problems through clean, efficient
+        code.
       </p>
     </div>
   );

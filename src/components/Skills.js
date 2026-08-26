@@ -2,13 +2,13 @@ function Skills() {
   // Map skill names to logo filenames (place these in public/skills/)
   const skillLogos = [
     { name: "Java", src: "/java.png", alt: "Java" },
-    { name: "C++", src: "/c++png.png", alt: "C++" },
-    { name: "React.js", src: "/logo192.png", alt: "React.js" },
+    { name: "HTML5", src: "/html5.png", alt: "HTML5" },
     { name: "JavaScript", src: "/js.png", alt: "JavaScript" },
     { name: "Tailwind CSS", src: "/tailwind.png", alt: "Tailwind CSS" },
-    { name: "MySQL", src: "/mysql.png", alt: "MySQL" },
-    { name: "Hibernate", src: "/hibernate.png", alt: "Hibernate" },
-    { name: "Git", src: "/git.png", alt: "Git" },
+    { name: "MongoDB", src: "/mongodb.png", alt: "MongoDB" },
+    { name: "Express.js", src: "/expressjs.png", alt: "Express.js" },
+    { name: "React", src: "/logo192.png", alt: "React" },
+    { name: "Node.js", src: "/nodejs.png", alt: "Node.js" },
   ];
 
   return (

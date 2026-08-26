@@ -46,6 +46,24 @@ function Contact() {
             hendrix10jul
           </a>
         </p>
+        <a
+          href="/AtharwaRanjan.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="view-cv-button"
+          style={{
+            display: "inline-block",
+            marginTop: 16,
+            padding: "10px 18px",
+            backgroundColor: "#42a5f5",
+            color: "#fff",
+            textDecoration: "none",
+            fontWeight: "bold",
+            borderRadius: 6,
+          }}
+        >
+          View CV
+        </a>
       </div>
     </section>
   );
