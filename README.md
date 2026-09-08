@@ -109,10 +109,10 @@ I am actively preparing for software development opportunities and campus placem
 https://github.com/AtharwaRanjan
 
 **LinkedIn:**
-Add your LinkedIn profile URL here.
+https://www.linkedin.com/in/atharwaranjan
 
 **Portfolio:**
-Coming soon.
+https://atharwaranjan-portfolio.netlify.app/
 
 ## 📄 License
 
