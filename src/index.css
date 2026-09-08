@@ -50,7 +50,10 @@
   box-sizing: border-box;
   flex-shrink: 0;
   text-align: center;
-  transition: background 0.3s, color 0.3s, border 0.3s;
+  transition:
+    background 0.3s,
+    color 0.3s,
+    border 0.3s;
   position: relative;
   cursor: pointer;
 }
@@ -69,7 +72,9 @@
   font-size: 0.95em;
   white-space: nowrap;
   z-index: 10;
-  transition: opacity 0.2s, visibility 0.2s;
+  transition:
+    opacity 0.2s,
+    visibility 0.2s;
   pointer-events: none;
 }
 
@@ -119,7 +124,10 @@ body {
   padding: 16px;
   box-sizing: border-box;
   flex-shrink: 0;
-  transition: background 0.3s, color 0.3s, border 0.3s;
+  transition:
+    background 0.3s,
+    color 0.3s,
+    border 0.3s;
 }
 
 .dark-mode .project-card {
@@ -149,7 +157,9 @@ body {
   color: #aad4ff;
 }
 .aboutSection {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 .aboutSection:hover {
   transform: scale(1.05);
@@ -157,26 +167,13 @@ body {
 }
 
 .typing {
-  overflow: hidden;
-  white-space: nowrap;
   border-right: 0.15em solid black; /* default cursor color for light mode */
-  animation: typing 3s steps(22) forwards, blink 0.75s step-end infinite;
-  width: 0;
   display: inline-block;
-  max-width: 22ch; /* match character count */
+  animation: blink 0.75s step-end infinite;
 }
 
 .dark-mode .typing {
   border-right-color: #eee; /* cursor color for dark mode */
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 22ch;
-  }
 }
 
 @keyframes blink {
